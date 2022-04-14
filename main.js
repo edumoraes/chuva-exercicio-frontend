@@ -5,8 +5,6 @@
   const verMenos = document.querySelector('[data-text="ver-menos"]');
   const resumoOculto = document.querySelector('[data-text="resumo-oculto"]');
   
-  
-
   verMais.addEventListener('click', (evento) => {
     reticencias.classList.add('d-none');
     resumoOculto.classList.remove('d-none');
@@ -47,6 +45,9 @@
       </div>
     </form>`
   });
+  
+  
+
   
 
 	

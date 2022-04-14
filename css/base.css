@@ -41,9 +41,18 @@
   border: none;
 }
 
-.btn-primary:hover,:active,:focus,:visited {
-  background-color: var(--marrom-escuro);
+.btn-link {
+  color: var(--laranja-primario);
   border: none;
+}
+
+.btn-link:hover {
+  color: var(--marrom-escuro);
+  border: none;
+}
+
+.shadow {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12) !important;
 }
 
 .titulo-painel {
