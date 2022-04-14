@@ -54,6 +54,21 @@
 
   background-color: var(--laranja-secundario);
 }
+a {
+  font-family: var(--quicksand);
+  font-weight: 700;
+  color: var(--laranja-primario);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--marrom-escuro);
+}
+
+p {
+  font-family: var(--quicksand);
+  font-weight: 400;
+  color: var(---neutro-36) !important;
+}
 
 h1 {
   font-family: var(--roboto);
