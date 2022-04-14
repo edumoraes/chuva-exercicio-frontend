@@ -88,3 +88,9 @@ h2 {
   font-family: var(--roboto);
   font-weight: 700;
 }
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .space-mobile {
+    margin-top: 3.75rem;
+  }
+}
