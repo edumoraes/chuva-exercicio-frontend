@@ -36,6 +36,11 @@
   background-color: var(--laranja-secundario);
 }
 
+.btn-primary {
+  background-color: var(--laranja-primario);
+  border: none;
+}
+
 h1 {
   font-family: var(--roboto);
   font-weight: 700;
