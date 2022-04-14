@@ -1,0 +1,27 @@
+:root {
+  
+  /* Cores */
+  --neutro-20: #333333;
+  --neutro-30: #4D4D4D;
+  --neutro-31: #4E4E4E;
+  --neutro-36: #5C5C5C;
+  --neutro-46: #757575;
+  --neutro-80: #CCCCCC;
+  --neutro-91: #E7E7E7;
+  
+  --branco: #ffffff;
+
+  --laranja-primario: #ED7839;
+  --laranja-secundario: #FDF1EB;
+
+  --marrom-escuro: #725C5C;
+  --marrom-claro: #ADA0A0;
+
+  --vermelho-notificacao: #F85959;
+
+  /* Fontes */
+  --roboto: 'Roboto', sans-serif;
+  --quicksand: 'Quicksand', sans-serif;
+
+
+}
