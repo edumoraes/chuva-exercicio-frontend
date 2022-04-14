@@ -11,4 +11,26 @@
   font-size: 0.875rem;
   color: var(--laranja-primario);
   text-decoration: none;
+  
+}
+
+.detalhes-resumo span {
+  font-family: var(--quinksand);
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--neutro-36);
+}
+
+.detalhes-autores span {
+  font-family: var(--quinksand);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--neutro-36);
+}
+
+.detalhes-notas span {
+  font-family: var(--quinksand);
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--marrom-claro);
 }

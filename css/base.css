@@ -41,6 +41,20 @@
   border: none;
 }
 
+.btn-primary:hover,:active,:focus,:visited {
+  background-color: var(--marrom-escuro);
+  border: none;
+}
+
+.titulo-painel {
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(---neutro-31);
+
+  background-color: var(--laranja-secundario);
+}
+
 h1 {
   font-family: var(--roboto);
   font-weight: 700;
