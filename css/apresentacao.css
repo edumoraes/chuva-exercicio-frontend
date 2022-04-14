@@ -34,3 +34,28 @@
   font-size: 0.75rem;
   color: var(--marrom-claro);
 }
+
+@media screen and (min-width: 768px) {
+  .overflow-detalhes {
+    max-height: 260px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .overflow-detalhes {
+    max-height: 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .overflow-detalhes {
+    max-height: 355px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .overflow-detalhes {
+    max-height: 600px;
+  }
+}
