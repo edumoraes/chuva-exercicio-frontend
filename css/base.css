@@ -28,6 +28,14 @@
 
 }
 
+.bg-primario {
+  background-color: var(--laranja-primario);
+}
+
+.bg-secundario {
+  background-color: var(--laranja-secundario);
+}
+
 h1 {
   font-family: var(--roboto);
   font-weight: 700;
