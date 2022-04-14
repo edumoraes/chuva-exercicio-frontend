@@ -5,8 +5,10 @@
 
 Para ver o desenvolvimento acesse o planejamento:
 
+### Organização das tarefas
 [![Github Projects](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/users/edumoraes/projects/2/views/3)
 
+### Demonstração Github Pages
 [![Github Pages](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://edumoraes.github.io/chuva-exercicio-frontend/)
 ## Feito Com:
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
