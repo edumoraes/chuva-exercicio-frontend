@@ -1,0 +1,29 @@
+.gradiente {
+  background: var(--gradiente)
+}
+
+.nav-link {
+  font-family: var(--quicksand);
+  font-weight: 500;
+  color: var(--marrom-escuro);
+}
+
+.nav-link:hover {
+  color: var(--laranja-primario);
+}
+
+.active {
+  background-color: var(--laranja-secundario);
+  position: relative;
+
+}
+
+.active::before {
+  content: '';
+  height: 100%;
+  width: 10px;
+  background: var(--gradiente);
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -17,6 +17,8 @@
   --marrom-escuro: #725C5C;
   --marrom-claro: #ADA0A0;
 
+  --gradiente: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+
   --vermelho-notificacao: #F85959;
 
   /* Fontes */
@@ -24,4 +26,14 @@
   --quicksand: 'Quicksand', sans-serif;
 
 
+}
+
+h1 {
+  font-family: var(--roboto);
+  font-weight: 700;
+}
+
+h2 {
+  font-family: var(--roboto);
+  font-weight: 700;
 }

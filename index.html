@@ -14,7 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!--CSS Personalizado-->
-  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/side-menu.css">
 
   <title>SLCA 2019</title>
 </head>
@@ -22,26 +23,52 @@
   <div class="container-fluid">
 
     <div class="row">
-  
-      <div class="col-2 fixed-top h-100 p-0 side__menu" style="background-color: aqua;">
+      <!--Side Menu-->
+      <div class="col-lg-2 fixed-top h-100 p-0 side__menu">
         
-        <div class="nome__evento">
-          <p>SLACA 2019</p>
+        <!--Menu mobile-->
+        <div class="d-none">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <img src="" alt="13 SLACA" class="logo__evento">
-        <nav>
-          <ul class="menu">
-            <li><a href="#" class="menu__item">Apresentação</a></li>
-            <li><a href="#" class="menu__item">Comitês</a></li>
-            <li><a href="#" class="menu__item">Autores</a></li>
-            <li><a href="#" class="menu__item">Eixos temáticos</a></li>
-            <li><a href="#" class="menu__item">Trabalhos</a></li>
-            <li><a href="#" class="menu__item">Contato</a></li>
-          </ul>
+
+        <div class="text-center pt-3 pb-3 nome__evento gradiente">
+          <h2 class="text-light">SLACA 2019</h2>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg sm-collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="container-fluid d-block p-0">
+            <div>
+              <a class="navbar-brand" href="#">
+                <img src="./img/menu-logo.png" alt="" style="width: 100%;">
+              </a>
+            </div>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 d-block" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2" href="#">Apresentação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2" href="#">Comitês</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2" href="#">Autores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2" href="#">Eixos temáticos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2 active" aria-current="page" href="#">Trabalhos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pt-2 pb-2 border-bottom border-2" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
   
-      <div class="col-10 offset-2" style="background-color: antiquewhite;">
+      <div class="col-lg-10 offset-2" style="background-color: antiquewhite;">
   
         <header class="d-flex justify-content-between header">
           <div class="flex-grow-1">
