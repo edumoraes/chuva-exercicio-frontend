@@ -19,6 +19,7 @@
   <!--CSS Personalizado-->
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/side-menu.css">
+  <link rel="stylesheet" href="/css/header.css">
 
   <title>SLCA 2019</title>
 </head>
@@ -49,7 +50,6 @@
                   2
                   <span class="visually-hidden">unread messages</span>
                 </span>
-                
               </div>
             </div>
 
@@ -90,26 +90,35 @@
         </nav>
       </div>
   
-      <div class="col-lg-10 col-xs-12 offset-lg-2" style="background-color: antiquewhite;">
+      <div class="col-lg-10 col-xs-12 offset-lg-2 p-0" style="background-color: antiquewhite;">
   
-        <header class="d-none d-lg-flex justify-content-between header">
+        <header class="container-fluid d-none d-lg-flex gap-4 pt-1 pb-1 align-items-center justify-content-between bg-secundario header">
           <div class="flex-grow-1">
-            <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
-            <p>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</p>
-            <p>ISSN: 1234-5678</p>
+            <span class="fs-6 subtitulo-header">Anais do Simpósio Latino Americano de Ciências de Alimentos</span>
+            <h1 class="fs-5 lh-1 mb-0 titulo-header">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h1>
+            <span class="fs-6 lh-1 subtitulo-header">ISSN: 1234-5678</span>
           </div>
-          <div>
-            <input class="idiomas" type="button" value="">
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-globe2"></i>
+              PT, BR
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">EN, US</a></li>
+            </ul>
           </div>
-          <div class="d-flex login">
-            <div>
-              <p>Bem vindo!</p>
-              <p>alguem12@galoascience.com</p>
+          <div class="d-flex gap-2 align-items-center login">
+            <div class="d-flex flex-column justify-content-center">
+              <span class="text-end login-saldacao">Bem vindo!</span>
+              <span class="text-end login-email">alguem12@galoascience.com</span>
             </div>
-            <div class="d-flex">
-              <p class="notification__badge">2</p>
-              <img src="https://s.gravatar.com/avatar/ac7494b61594e1950b46ed2ae4176365?s=80
-              " alt="" class="login__imagem">
+            <div class="d-flex position-relative">
+              <img class="rounded-circle position-relative" src="https://s.gravatar.com/avatar/ac7494b61594e1950b46ed2ae4176365?s=80
+              " alt="" class="login__imagem" style="height: 1.875rem;">
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                2
+                <span class="visually-hidden">unread messages</span>
+              </span>
             </div>
           </div>
         </header>

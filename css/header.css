@@ -1,0 +1,27 @@
+.login-saldacao {
+  font-family: var(--quicksand);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--neutro-20);
+}
+
+.login-email {
+  font-family: var(--quicksand);
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--neutro-20);
+}
+
+.titulo-header {
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 1.375rem;
+  color: var(--marrom-escuro);
+}
+
+.subtitulo-header {
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--marrom-escuro);
+}
