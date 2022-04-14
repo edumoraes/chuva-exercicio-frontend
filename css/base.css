@@ -32,6 +32,10 @@
   background-color: var(--laranja-primario);
 }
 
+.bg-light {
+  background-color: var(--branco) !important;
+}
+
 .bg-secundario {
   background-color: var(--laranja-secundario);
 }
