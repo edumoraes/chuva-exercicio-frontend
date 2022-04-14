@@ -31,7 +31,7 @@
     divConteudoCriarTopico.classList.add('d-none');
     divCriarTopico.innerHTML = `
     <span>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</span>
-    <form>
+    <form class="w-100">
       <div class="mb-3">
         <label for="" class="form-label">Assunto</label>
         <input type="text" name="" id="" class="form-control" placeholder="Defina um tópico sucinto para notificar os autores..." aria-describedby="helpId">
@@ -40,7 +40,7 @@
         <label for="exampleFormControlTextarea1" class="form-label">Conteúdo</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <div class="mb-3">
+      <div class="mb-3 text-end">
         <button type="submit" class="btn btn-primary mb-3">Enviar</button>
       </div>
     </form>`
